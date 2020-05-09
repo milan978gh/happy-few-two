@@ -1,0 +1,13 @@
+1. build project
+ -make folders
+ -make files
+ -conect files
+
+2. build bluprint
+ -make head
+ -make body
+
+3. build navbar
+ -name and links
+
+4. 
