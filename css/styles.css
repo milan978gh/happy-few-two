@@ -5,21 +5,40 @@ body{
 h1{
 	background-color: pink;
 	text-align: center;
-
 }
 
 nav{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
+}
+
+.nav-links{
+	display: flex;
 
 }
 
-nav div a{
+nav>.nav-links>div{
 	margin-right: 20px;
-	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.1s;
+}
 
+.link{
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.link a{
+	color: pink;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.link:hover{
+	border-bottom: 2px solid black;
+}
+
+.link a{
+	color: black;
 }
 
 img{
